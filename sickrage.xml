@@ -27,12 +27,6 @@
       </Port>
     </Publish>
   </Networking>
-  <Environment>
-    <Variable>
-      <Name>EDGE</Name>
-      <Value>0</Value>
-    </Variable>
-  </Environment>
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/sickrage</HostDir>
