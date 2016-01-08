@@ -20,7 +20,7 @@ rm -rf /var/lib/apt/lists/*
 
 # Install SickRage
 RUN mkdir /opt/sickrage && \
-git clone https://github.com/SiCKRAGETV/SickRage.git -b master /opt/sickrage && \
+git clone https://github.com/SickRage/SickRage.git -b master /opt/sickrage && \
 chown -R nobody:users /opt/sickrage
 
 EXPOSE 8081
