@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.17
+FROM phusion/baseimage:0.9.21
 MAINTAINER Specter <mike@mikeodriscoll.ca>
 ENV DEBIAN_FRONTEND noninteractive
 
