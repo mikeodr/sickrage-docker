@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.21
+FROM phusion/baseimage:0.11
 MAINTAINER Specter <mike@mikeodriscoll.ca>
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -20,7 +20,7 @@ rm -rf /var/lib/apt/lists/*
 
 # Install SickRage
 RUN mkdir /opt/sickrage && \
-git clone https://github.com/SickRage/SickRage.git -b master /opt/sickrage && \
+git clone https://github.com/SickChill/SickChill.git -b master /opt/sickrage && \
 chown -R nobody:users /opt/sickrage
 
 EXPOSE 8081
