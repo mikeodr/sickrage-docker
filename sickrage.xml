@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Category>Downloaders: MediaApp:Video</Category>
-  <Name>SickRage</Name>
+  <Name>SickChill</Name>
   <Overview>
-    SickRage is a PVR for newsgroup users (with limited torrent support). It watches for new episodes of your favorite shows and when they are posted it downloads them, sorts and renames them, and optionally generates metadata for them. It currently supports NZBs.org, NZBMatrix, NZBs'R'Us, Newzbin, Womble's Index, NZB.su, TVTorrents and EZRSS and retrieves show information from theTVDB.com and TVRage.com.
+    SickChill is a PVR for newsgroup users (with limited torrent support). It watches for new episodes of your favorite shows and when they are posted it downloads them, sorts and renames them, and optionally generates metadata for them. It currently supports NZBs.org, NZBMatrix, NZBs'R'Us, Newzbin, Womble's Index, NZB.su, TVTorrents and EZRSS and retrieves show information from theTVDB.com and TVRage.com.
   </Overview>
   <Description>
-    SickRage is a PVR for newsgroup users (with limited torrent support). It watches for new episodes of your favorite shows and when they are posted it downloads them, sorts and renames them, and optionally generates metadata for them. It currently supports NZBs.org, NZBMatrix, NZBs'R'Us, Newzbin, Womble's Index, NZB.su, TVTorrents and EZRSS and retrieves show information from theTVDB.com and TVRage.com.[br][br]
+    SickChill is a PVR for newsgroup users (with limited torrent support). It watches for new episodes of your favorite shows and when they are posted it downloads them, sorts and renames them, and optionally generates metadata for them. It currently supports NZBs.org, NZBMatrix, NZBs'R'Us, Newzbin, Womble's Index, NZB.su, TVTorrents and EZRSS and retrieves show information from theTVDB.com and TVRage.com.[br][br]
     [b][span style='color: #E80000;']Directions:[/span][/b][br]
-    [b]/config[/b] : this path where SickRage stores it's configuration files.[br]
+    [b]/config[/b] : this path where SickChill stores it's configuration files.[br]
     [b]/downloads[/b] : this path is used retrieve the downloaded files by your downloader application (e.g. SABnzbd or NZBGet)[br]
-    [b]/tv[/b] : set this path to where you wish SickRage move your TV episodes to.[br][br]
+    [b]/tv[/b] : set this path to where you wish SickChill move your TV episodes to.[br][br]
   </Description>
   <Registry>https://hub.docker.com/r/mikeodr/sickrage-docker/</Registry>
   <GitHub>https://github.com/mikeodr/sickrage-docker</GitHub>
